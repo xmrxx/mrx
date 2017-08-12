@@ -1,3 +1,9 @@
+--[[ 
+
+⚔️🛡🛡مآرٍڪس m̥ے̲̣x̲̣🛡🛡⚔️
+
+--]]
+
 do
     
 local function axis(msg,matches)
@@ -20,10 +26,6 @@ local text = 'اهلا 😊👋 بك يالمعة عيني في المجموعة
     ..'📅 التاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
     ..'🕚 الوقت : '..os.date(' %T*', os.time())..'\n'  
      ..'➖➖➖➖➖ـ'..'\n'
-    ..'🕵قناة السورس : @DEV_the_stun'..'\n'
-    ..'🤖بوت التواصل : @stunbot'..'\n'..'\n'
-    ..'🤖.. گروب الدعم الخاص بالسورس'..'\n'..'\n'
-    ..'👉 https://telegram.me/joinchat/DpFSq0D4cy7HGX7PCnfv3g'..'\n'..'\n'
      return reply_msg(msg.id, text, ok_cb, false)
      end
     if matches[1] == "chat_add_user"  then 
@@ -45,10 +47,6 @@ local text = 'اهلا 😊👋 بك يالمعة عيني في المجموعة
     ..'📅 التاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
     ..'🕚 الوقت : '..os.date(' %T*', os.time())..'\n'  
      ..'➖➖➖➖➖ـ'..'\n'
-    ..'🕵قناة السورس : @DEV_the_stun'..'\n'
-    ..'🤖بوت التواصل : @stunbot'..'\n'..'\n'
-    ..'🤖.. گروب الدعم الخاص بالسورس'..'\n'..'\n'
-    ..'👉 https://telegram.me/joinchat/DpFSq0D4cy7HGX7PCnfv3g'..'\n'..'\n'
         return reply_msg(msg.id, text, ok_cb, false)
   end
 end
