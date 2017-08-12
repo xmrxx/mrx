@@ -128,13 +128,13 @@ else
   
   chmod 777 devpoint.sh
   
-  #Adding some color. By @MehdiHS
+  #Adding some color. By ##ṂṜẌ
    echo -e "\033[38;5;208m"
-   echo -e "     > Channel : @DevPointTeam                        "
-   echo -e "     > Developer : @TH3_GHOST                       "
-   echo -e "     > Bot ID : @SuperDevPoint                        "
-   echo -e "     > Github : GitHub.com/DevPointTeam/DevPoint     "
+   echo -e "     > Channel :   ^_^                      "
+   echo -e "     > Developer : ^_^                      "
+   echo -e "     > Bot ID :    ^_^                      "
+   echo -e "     > Github :    ^_^                      "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/devpoint.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/mrx.lua -l 1 -E $@
 fi
