@@ -1,12 +1,9 @@
 --[[ 
-▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀ 
-▀▄ ▄▀                                                               ▀▄ ▄▀ 
-▀▄ ▄▀    BY DEV KASPER                                  ▀▄ ▄▀ 
-▀▄ ▄▀   BY KASPER (@kasper_dev)                     ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY DEV KASPER           ▀▄ ▄▀ 
-▀▄ ▄▀   orders   :    vip                                   ▀▄ ▄▀ 
-▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀ 
+
+⚔️🛡🛡مآرٍڪس m̥ے̲̣x̲̣🛡🛡⚔️
+
 --]]  
+
 local function check_member_superrem2(cb_extra, success, result)
 local receiver = cb_extra.receiver
 local data = cb_extra.data
@@ -86,7 +83,7 @@ end
 return msg
 end
 function run(msg, matches)
-if matches[1]:lower() == 'تفعيل لمدة' then
+if matches[1]:lower() == 'تفعيل المدة' then
 if not is_sudo(msg) then return end
 local time = os.time()
 local buytime = tonumber(os.time())
@@ -105,12 +102,9 @@ end
 end
 return {
 patterns = {
-"^(تفعيل لمدة) (.*)$",
+"^(تفعيل المدة) (.*)$",
 "^(المدة المتبقية)$",
 },
 run = run,
 pre_process = pre_process
 }
---[[
-امانة الله ورسولة هاذه الاصل ايراني مو ماتي 
---]]
