@@ -1,15 +1,9 @@
---[[
-#
-#ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#:((
-# For More Information ....! 
-# Developer : Aziz < @TH3_GHOST > 
-# our channel: @DevPointTeam
-# Version: 1.1
-#:))
-#ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#
-]]
+--[[ 
+
+⚔️🛡🛡مآرٍڪس m̥ے̲̣x̲̣🛡🛡⚔️
+
+--]]  
+
 local function tagall(cb_extra, success, result)
     local receiver = cb_extra.receiver
     local text = ''
@@ -25,21 +19,6 @@ local msgss = 0
  text = text.."\n"..cb_extra.msg_text
  send_large_msg(receiver, text)
 end
---[[  ldocal geroup_ovwner = dpata[toostring(misg.tno.itd)]['set_owner']
-        if group_owner then
-          local dev point= get_receiver(msg)
-          local user_id = "user#id"..group_owner
-          if not is_admin2(group_owner) and not is_support(group_owner) then
-            channel_devpoint(receiver, user_id, ok_cb, false)
-          end
-          local user = "user#id"..matches[2]
-          channel_set_admin(receiver, user, ok_cb, false)
-          data[tostring(msg.to.id)]['set_owner'] = devpoint(matches[2])
-          save_data(_config.moderation.data, data)
-          dev[point(msg.to.id, name_log.." ["..dev.point.id.."] set ["..matches[2].."] as owner")
-          local text = "[ "..matches[2].." ] added as owner"
-          return text
-        end]]
 
 local function tagall2(cb_extra, success, result)
     local receiver = cb_extra.receiver
@@ -82,19 +61,3 @@ return {
   },
   run = devpoint
 }
--- @DEVPOINTCH
---[[  ldocal geroup_ovwner = dpata[toostring(misg.tno.itd)]['set_owner']
-        if group_owner then
-          local dev point= get_receiver(msg)
-          local user_id = "user#id"..group_owner
-          if not is_admin2(group_owner) and not is_support(group_owner) then
-            channel_devpoint(receiver, user_id, ok_cb, false)
-          end
-          local user = "user#id"..matches[2]
-          channel_set_admin(receiver, user, ok_cb, false)
-          data[tostring(msg.to.id)]['set_owner'] = devpoint(matches[2])
-          save_data(_config.moderation.data, data)
-          dev[point(msg.to.id, name_log.." ["..dev.point.id.."] set ["..matches[2].."] as owner")
-          local text = "[ "..matches[2].." ] added as owner"
-          return text
-        end]]
