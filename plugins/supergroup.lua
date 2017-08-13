@@ -12,7 +12,7 @@ local function check_member_super(cb_extra, success, result)
   local data = cb_extra.data 
   local msg = cb_extra.msg 
   if success == 0 then 
-    send_large_msg(receiver, " لا تــلعــب ولك اشــ😡ــبيك فــقــ✌️ــط للادمــنــيــه😂") 
+    send_large_msg(receiver, "لتلعب بكيفك😒✋️للمدراء فقط🛡")
   end 
   for k,v in pairs(result) do 
     local member_id = v.peer_id 
